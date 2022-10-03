@@ -1,0 +1,21 @@
+{
+    "id": "hydrogen",
+    "name": "hydrogen",
+    "description": "Integration of yunohost-hydrogen to get some notifications",
+    "keywords": [
+        "hydrogen"
+    ],
+    "version": "0.1.2",
+    "humhub": {
+        "minVersion": "1.6"
+    },
+    "homepage": "https://github.com/smart4life/humhub-hydrogen",
+    "authors": [
+        {
+            "name": "Sébastien Mennetrier"
+        },
+        {
+            "name": "Bryan Libourel"
+        }
+    ]
+}
