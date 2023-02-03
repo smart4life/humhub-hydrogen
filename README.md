@@ -23,8 +23,8 @@ The plugins is built with [Vite](https://vitejs.dev/)
 4. Enter Matrix server url
 
 ## Open Tasks for v1.0
-* Start a chat matrix room with another user (see [TODO](./TODO.md#Start_a_chat_matrix_room_with_another_user))
-* Add a button on each space to start a room with matrix (see [TODO](./TODO.md#Add_a_button_on_each_space_to_start_a_room_with_matrix))
+* Start a chat matrix room with another user (see [TODO](./TODO.md#start-a-chat-matrix-room-with-another-user))
+* Add a button on each space to start a room with matrix (see [TODO](./TODO.md#add-a-button-on-each-space-to-start-a-room-with-matrix))
 * Notification -> Need to fork/contribute to hydrogen view sdk ?
 * Handle file upload -> Need to fork/contribute to hydrogen view sdk ?
 * Rich presence -> Need to fork/contribute to hydrogen view sdk ?
