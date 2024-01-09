@@ -41,6 +41,8 @@ class Module extends \humhub\components\Module
      */
     public function getIconAlias($name)
     {
+        // Use null coalescing operator to provide a default value
         return $this->iconAlias[$name] ?? $name;
     }
+
 }

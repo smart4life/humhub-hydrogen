@@ -21,7 +21,7 @@ class HydrogenLoader extends Widget
     public function run() {
 
         Assets::register($this->view);
-        return $this->render('footer.php');
+        return $this->render('footer', []);
     }
 
 }

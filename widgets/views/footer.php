@@ -1,9 +1,17 @@
 <?php
 
-// use humhub\libs\Html;
+use humhub\modules\hydrogen\assets\Assets;
 
-// $assets = humhub\modules\hydrogen\assets\Assets::register($this);
-$this->registerJsConfig('hydrogen', ['matrixServerUrl' => Yii::$app->getModule('hydrogen')->settings->get('matrixServerUrl')]);
+// Check if the module 'hydrogen' exists before accessing its settings
+$hydrogenModule = Yii::$app->getModule('hydrogen');
+$matrixServerUrl = '';
+if ($hydrogenModule) {
+    $matrixServerUrl = $hydrogenModule->settings->get('matrixServerUrl');
+}
+
+Assets::register($this);
+
+$this->registerJsConfig('hydrogen', ['matrixServerUrl' => $matrixServerUrl]);
 ?>
 
 <div id="hydrogen" class="hydrogen"></div>
